@@ -1,0 +1,411 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* global start */
+/* global end */
+body{}
+/* header start */
+.header{
+    background: white;
+    padding: 40px 0px;
+}
+.wrapper{
+    width:65%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.logo{
+    width:10%;
+    float: left;
+}
+.logo img{
+    width:100% ;
+}
+.menu{
+width: 90%;
+float: left;
+}
+.menu ul {
+    float: right;
+    margin-top: 8px;
+}
+.menu ul li{
+    list-style-type:none ;
+    display: inline;
+}
+.menu ul li a{
+    font-size:15px;
+    font-family: 'Roboto Slab', serif;
+    color: #31353e;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin:0px 20px;
+    border-bottom: 2px solid transparent;
+    transition:.5s ;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid rgb(29, 27, 27);
+}
+.menu ul li:last-child a{
+   margin-right:0px ;
+}
+.menu ul li button{
+
+    
+}
+.menu button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+    background: rgb(231, 61, 31);
+    padding:10px 15px;
+    border: transparent;
+    border-radius: 50px;
+    transition: .5s;
+
+}
+.menu button:hover{
+    color: white;
+    background-color:#191b29;
+}
+/* header end */
+/* banner start */
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+     min-height: 1350px;
+     overflow: hidden;
+     margin: 0px auto;
+}
+.banner_top{
+    width: 80%;
+    text-align: center;
+    color: azure;
+    margin: 430px auto 0px;
+}
+.banner h1{
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: white;
+}
+.banner p{
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color:white ;
+}
+.banner_bottom{
+    overflow: hidden;
+    margin-top:150px ;
+}
+.single{
+    width:29%;
+    float: left;
+    text-align: center;
+    margin: 0px 3%;
+    margin-bottom: 50px;
+}
+.single:first-child{
+    margin-left: 0px;
+}
+.single:last-child{
+    margin-right:0px ;
+}
+.single img{
+    width:40%;
+}
+.c_b{
+    font-size:30px ;
+    font-family: 'Roboto Slab', serif;
+    font-weight:700px ;
+    color: white;
+    padding:25px 0px ;
+}
+.c_p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight:300px;
+    color: white;
+    line-height:30px ;
+}
+.single button{
+    font-size:18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight:300px;
+    color: #612316;
+    background: white;
+    padding: 15px 50px;
+    border: none;
+    border-radius:50px ;
+    margin-top: 70px;
+}
+.single button:hover{
+    background: #dd4b2b;
+    color: white;
+    transition: 0.9s;
+}
+.single button:focus{
+    outline:none ;
+}
+/* banner end */
+/* blog start */
+.blog{
+    min-height: 800px;
+    background: #edeff1;
+}
+.blog_top{
+    text-align: center;
+    margin: 140px 0px;
+}
+.b_h{
+    font-size:30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight:700px;
+    color: #31353e;
+    margin-top:40px ;
+}
+/* .blog_top h1{} */
+.blog_bottom{
+    overflow: hidden;
+}
+.double{
+    width:29%;
+    float:left;
+    padding:0 3%;
+    text-align: center;
+    margin-bottom:140px ;
+}
+.double img{
+    width: 105%;
+    /* width:371px;
+    height:254px ; */
+}
+.double:first-child{
+    padding-left: 0px;
+}
+.double:last-child{
+    padding-right:0px;
+}
+.b_p{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300px;
+  color: #4e5159;
+  text-align: center;
+  line-height:35px ;
+}
+
+.double button{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300px;
+    color: #4e5159;
+    background:white;
+    padding:15px 50px;
+    border: none;
+    border-radius:100px ;
+    margin-top:50px;
+}
+.double button:hover{
+    color: white;
+    background:  rgb(231, 61, 31);
+    transition: 0.9s;
+}
+/* blog end */
+/* newsletter start */
+.newsletter{
+    background-image: url(../images/Panakeia_template-Symu_co.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 230px;
+    padding:110px 0px ;
+}
+.n_h{
+    font-size:30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight:700px;
+    color: white;
+    /* margin-top:40px ; */
+    text-align:center ;
+}
+.n_p{
+    width: 50%;
+    margin:0px auto ;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    color:white;
+    line-height:35px ;
+    text-shadow: 2px 1px 5px black;
+}
+.email{
+   
+    text-align: center;
+}
+.email input{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 700px;
+    background:rgba(255, 255, 255, 0.342);
+    border:1px solid white;
+    border-radius:50px ;
+    padding: 18px 70px;
+ 
+}
+.email input:focus{
+    outline: none;
+}
+.email button{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight:700px;
+    color: #6c3226;
+    background:white;
+    padding:17px 85px;
+    border: none;
+    border-radius:100px ;
+    margin-top:50px;
+    margin-left:-50px ;
+}
+.email button:focus{
+    outline: none;
+}
+
+/* newsletter end */
+/* ipsum start */
+.ipsum{
+    overflow: hidden;
+    min-height:700px ;
+    padding:100px 0px;
+}
+.integer{
+    width:42%;
+    float:left;
+    text-align:center;
+    padding-left:90px;
+    padding-bottom: 0%;
+}
+.integer:nth-child(2){
+    padding-right:0px;
+}
+.integer:nth-child(3){
+    padding-left:0px ;
+}
+.integer h2{
+    font-size:40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700px;
+    color: #191b29;
+    padding-top:50px ;
+    text-align: left;
+    padding-left:0px ;
+}
+.integer p{
+  color: #353743;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300px;
+}
+.integer button{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300px;
+    color: white;
+    background:#dd4b2b;
+    padding:15px 50px;
+    border: none;
+    border-radius:100px ;
+    margin-top:50px;
+}
+.integer button:hover{
+color: white;
+background: #4b4e73;
+}
+.in_btn{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300px;
+    color: white;
+    background:#4b4e73;
+    padding:15px 50px;
+    border: none;
+    border-radius:100px ;
+    margin-top:50px;
+}
+.in_btn{
+    color: white;
+    background: #191b29 !important;
+}
+.in_btn:hover{
+    background-color: #dd4b2b !important;
+}
+.integer img{
+    width:105%;
+}
+/* ipsum end */
+/* service start */
+.service{
+    background-color: #d75d0e;
+    padding-top:50px ;
+    min-height:280px ;
+}
+.ser_h{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:200px;
+    color:rgb(255, 255, 255);
+    line-height:40px ;
+    letter-spacing:1px;
+    padding:20px 0px ;
+}
+/* service end */
+/* content start */
+.content{
+    background-image: url(../images/Panakeia_template-Symu_co.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
+.content p{
+    padding-top:100px ;
+}
+.con_text{
+    bag
+}
+/* content end */
+/* footer start */
+.footer{
+    /* height: 70px; */
+    background-color: #31353e;
+    overflow: hidden;
+}
+.footer_left{
+    width:85%;
+    float: left;
+}
+.f_p{
+    font-size:12px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px;
+    line-height:26px ;
+    padding: 40px 0px;
+    color: #edeff1;
+}
+.footer_right{
+    width: 15%;
+    float: right;
+}
+.footer_right p{
+    text-align: center;
+}
+/* footer end */
+
